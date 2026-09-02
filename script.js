@@ -40,3 +40,40 @@ document.querySelector('.copy-mail').addEventListener('click', async (event) => 
     window.location.href = `mailto:${event.currentTarget.dataset.email}`;
   }
 });
+
+
+// Project image lightbox
+const lightbox = document.getElementById('imageLightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxCaption = document.getElementById('lightboxCaption');
+const lightboxClose = document.getElementById('lightboxClose');
+
+function closeLightbox() {
+  lightbox.classList.remove('open');
+  lightbox.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('lightbox-open');
+  setTimeout(() => { lightboxImage.src = ''; }, 220);
+}
+
+document.querySelectorAll('.project-visual img').forEach((img) => {
+  img.setAttribute('tabindex', '0');
+  img.setAttribute('role', 'button');
+  img.setAttribute('aria-label', `${img.alt} - büyütmek için aç`);
+  const open = () => {
+    lightboxImage.src = img.src;
+    lightboxImage.alt = img.alt;
+    lightboxCaption.textContent = img.alt;
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('lightbox-open');
+    lightboxClose.focus();
+  };
+  img.addEventListener('click', open);
+  img.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+  });
+});
+
+lightboxClose.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
+document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
