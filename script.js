@@ -77,3 +77,8 @@ document.querySelectorAll('.project-visual img').forEach((img) => {
 lightboxClose.addEventListener('click', closeLightbox);
 lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
 document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+
+// Disable right-click context menu
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
