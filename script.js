@@ -49,13 +49,15 @@ const lightboxCaption = document.getElementById('lightboxCaption');
 const lightboxClose = document.getElementById('lightboxClose');
 
 function closeLightbox() {
+  if (!lightbox || !lightboxImage) return;
   lightbox.classList.remove('open');
   lightbox.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('lightbox-open');
   setTimeout(() => { lightboxImage.src = ''; }, 220);
 }
 
-document.querySelectorAll('.project-visual img').forEach((img) => {
+if (lightbox && lightboxImage && lightboxCaption && lightboxClose) {
+  document.querySelectorAll('.project-visual img').forEach((img) => {
   img.setAttribute('tabindex', '0');
   img.setAttribute('role', 'button');
   img.setAttribute('aria-label', `${img.alt} - büyütmek için aç`);
@@ -72,13 +74,14 @@ document.querySelectorAll('.project-visual img').forEach((img) => {
   img.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
   });
-});
+  });
 
-lightboxClose.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
-document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+}
 
-// Disable right-click context menu
-document.addEventListener("contextmenu", (event) => {
+// Disable right-click context menu across the site
+document.addEventListener('contextmenu', (event) => {
   event.preventDefault();
 });
