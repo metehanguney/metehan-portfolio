@@ -1,0 +1,992 @@
+[
+  {
+    "id": "1-1",
+    "cat": 1,
+    "names": [
+      "Serpme Kahvaltı",
+      "Mixed Breakfast",
+      "فطور مشكل"
+    ],
+    "price": 1300
+  },
+  {
+    "id": "1-2",
+    "cat": 1,
+    "names": [
+      "Kahvaltı Tabağı",
+      "Breakfast Plate",
+      "طبق فطور"
+    ],
+    "price": 400
+  },
+  {
+    "id": "1-3",
+    "cat": 1,
+    "names": [
+      "Mercimek veya Ezogelin Çorbası",
+      "Lentil or Ezogelin Soup",
+      "شوربة عدس أو إيزوغلين"
+    ],
+    "price": 130
+  },
+  {
+    "id": "1-4",
+    "cat": 1,
+    "names": [
+      "Menemen",
+      "Menemen",
+      "بيض بالطماطم والفلفل"
+    ],
+    "price": 250
+  },
+  {
+    "id": "1-5",
+    "cat": 1,
+    "names": [
+      "Sucuklu Yumurta",
+      "Eggs with Turkish Sausage",
+      "بيض بالسجق"
+    ],
+    "price": 300
+  },
+  {
+    "id": "1-6",
+    "cat": 1,
+    "names": [
+      "Kavurmalı Yumurta",
+      "Eggs with Braised Meat",
+      "بيض باللحم"
+    ],
+    "price": 350
+  },
+  {
+    "id": "1-7",
+    "cat": 1,
+    "names": [
+      "Omlet",
+      "Omelette",
+      "عجة البيض"
+    ],
+    "price": 200
+  },
+  {
+    "id": "1-8",
+    "cat": 1,
+    "names": [
+      "Patates Tava",
+      "French Fries",
+      "بطاطس مقلية"
+    ],
+    "price": 200
+  },
+  {
+    "id": "1-9",
+    "cat": 1,
+    "names": [
+      "Kaşarlı Tost",
+      "Cheese Toast",
+      "توست بالجبن"
+    ],
+    "price": 220
+  },
+  {
+    "id": "1-10",
+    "cat": 1,
+    "names": [
+      "Sucuklu Kaşarlı Tost",
+      "Sausage and Cheese Toast",
+      "توست بالسجق والجبن"
+    ],
+    "price": 250
+  },
+  {
+    "id": "1-11",
+    "cat": 1,
+    "names": [
+      "Su Böreği",
+      "Turkish Water Pastry",
+      "بورك تركي"
+    ],
+    "price": 280
+  },
+  {
+    "id": "2-1",
+    "cat": 2,
+    "names": [
+      "Tombik Et Döner (50 gr)",
+      "Doner Sandwich (50 g)",
+      "ساندويتش شاورما لحم"
+    ],
+    "price": 330
+  },
+  {
+    "id": "2-2",
+    "cat": 2,
+    "names": [
+      "İskender Kebap (100 gr)",
+      "Iskender Kebab (100 g)",
+      "إسكندر كباب"
+    ],
+    "price": 650
+  },
+  {
+    "id": "2-3",
+    "cat": 2,
+    "names": [
+      "Pilav Üstü Döner (100 gr)",
+      "Meat Doner on Rice (100 g)",
+      "شاورما لحم مع الأرز"
+    ],
+    "price": 600
+  },
+  {
+    "id": "2-4",
+    "cat": 2,
+    "names": [
+      "Porsiyon Et Döner (100 gr)",
+      "Portion Meat Doner (100 g)",
+      "وجبة شاورما لحم"
+    ],
+    "price": 550
+  },
+  {
+    "id": "2-5",
+    "cat": 2,
+    "names": [
+      "Dürüm Et Döner (70 gr)",
+      "Meat Doner Wrap (70 g)",
+      "ساندويتش شاورما لحم"
+    ],
+    "price": 380
+  },
+  {
+    "id": "3-1",
+    "cat": 3,
+    "names": [
+      "Karışık Izgara",
+      "Mixed Grill",
+      "مشاوي مشكلة"
+    ],
+    "price": 1250
+  },
+  {
+    "id": "3-2",
+    "cat": 3,
+    "names": [
+      "Kuzu Şiş",
+      "Lamb Skewers",
+      "أسياخ لحم خروف"
+    ],
+    "price": 750
+  },
+  {
+    "id": "3-3",
+    "cat": 3,
+    "names": [
+      "Tavuk Şiş",
+      "Chicken Skewers",
+      "شيش طاووق"
+    ],
+    "price": 500
+  },
+  {
+    "id": "3-4",
+    "cat": 3,
+    "names": [
+      "Adana (Acılı) Kebap",
+      "Spicy Adana Kebab",
+      "كباب أضنة حار"
+    ],
+    "price": 580
+  },
+  {
+    "id": "3-5",
+    "cat": 3,
+    "names": [
+      "Domatesli Kebap",
+      "Tomato Kebab",
+      "كباب بالطماطم"
+    ],
+    "price": 700
+  },
+  {
+    "id": "3-6",
+    "cat": 3,
+    "names": [
+      "Urfa Kebap",
+      "Urfa Kebab",
+      "كباب أورفا"
+    ],
+    "price": 580
+  },
+  {
+    "id": "3-7",
+    "cat": 3,
+    "names": [
+      "Sarma Beyti",
+      "Sarma Beyti Kebab",
+      "كباب بيتي ملفوف"
+    ],
+    "price": 700
+  },
+  {
+    "id": "3-8",
+    "cat": 3,
+    "names": [
+      "Patlıcanlı Kebap",
+      "Eggplant Kebab",
+      "كباب بالباذنجان"
+    ],
+    "price": 700
+  },
+  {
+    "id": "3-9",
+    "cat": 3,
+    "names": [
+      "Kuzu Pirzola",
+      "Lamb Chops",
+      "ريش خروف مشوية"
+    ],
+    "price": 850
+  },
+  {
+    "id": "3-10",
+    "cat": 3,
+    "names": [
+      "Tavuk Kanat (6 Parça)",
+      "Chicken Wings (6 Pieces)",
+      "أجنحة دجاج مشوية"
+    ],
+    "price": 500
+  },
+  {
+    "id": "4-1",
+    "cat": 4,
+    "names": [
+      "Konya Usulü Etli Ekmek",
+      "Konya Meat Flatbread",
+      "خبز قونية باللحم"
+    ],
+    "price": 470
+  },
+  {
+    "id": "4-2",
+    "cat": 4,
+    "names": [
+      "Mevlana Pide",
+      "Mevlana Pide",
+      "فطيرة مولانا"
+    ],
+    "price": 500
+  },
+  {
+    "id": "4-3",
+    "cat": 4,
+    "names": [
+      "Semazen Special",
+      "Semazen Special Pide",
+      "فطيرة سمازن الخاصة"
+    ],
+    "price": 600
+  },
+  {
+    "id": "4-4",
+    "cat": 4,
+    "names": [
+      "Bıçak Arası Pide",
+      "Bicak Arasi Pide",
+      "فطيرة لحم مفروم"
+    ],
+    "price": 530
+  },
+  {
+    "id": "4-5",
+    "cat": 4,
+    "names": [
+      "Kaşarlı Pide",
+      "Cheese Pide",
+      "فطيرة بالجبن"
+    ],
+    "price": 470
+  },
+  {
+    "id": "4-6",
+    "cat": 4,
+    "names": [
+      "Karışık Pide",
+      "Mixed Pide",
+      "فطيرة مشكلة"
+    ],
+    "price": 550
+  },
+  {
+    "id": "4-7",
+    "cat": 4,
+    "names": [
+      "Sucuklu Kaşarlı Pide",
+      "Sausage and Cheese Pide",
+      "فطيرة بالسجق والجبن"
+    ],
+    "price": 500
+  },
+  {
+    "id": "4-8",
+    "cat": 4,
+    "names": [
+      "Kavurmalı Kaşarlı Pide",
+      "Braised Meat and Cheese Pide",
+      "فطيرة لحم وجبن"
+    ],
+    "price": 550
+  },
+  {
+    "id": "4-9",
+    "cat": 4,
+    "names": [
+      "Kaşarlı Kuşbaşılı Pide",
+      "Meat and Cheese Pide",
+      "فطيرة مكعبات اللحم والجبن"
+    ],
+    "price": 550
+  },
+  {
+    "id": "4-10",
+    "cat": 4,
+    "names": [
+      "Lahmacun",
+      "Lahmacun",
+      "لحم بعجين"
+    ],
+    "price": 180
+  },
+  {
+    "id": "4-11",
+    "cat": 4,
+    "names": [
+      "Kaşarlı Lahmacun",
+      "Cheese Lahmacun",
+      "لحم بعجين بالجبن"
+    ],
+    "price": 200
+  },
+  {
+    "id": "5-1",
+    "cat": 5,
+    "names": [
+      "Tavuk But Pirzola",
+      "Chicken Thigh Cutlets",
+      "أفخاذ دجاج مشوية"
+    ],
+    "price": 500
+  },
+  {
+    "id": "5-2",
+    "cat": 5,
+    "names": [
+      "Et Saç Kavurma",
+      "Meat Sac Kavurma",
+      "لحم مقلي على الصاج"
+    ],
+    "price": 700
+  },
+  {
+    "id": "5-3",
+    "cat": 5,
+    "names": [
+      "Kiremitte Kebap",
+      "Tile Kebab",
+      "كباب بالفخار"
+    ],
+    "price": 700
+  },
+  {
+    "id": "5-4",
+    "cat": 5,
+    "names": [
+      "Tavuk Saç Kavurma",
+      "Chicken Sac Kavurma",
+      "دجاج على الصاج"
+    ],
+    "price": 550
+  },
+  {
+    "id": "5-5",
+    "cat": 5,
+    "names": [
+      "Pizza",
+      "Pizza",
+      "بيتزا"
+    ],
+    "price": 400
+  },
+  {
+    "id": "5-6",
+    "cat": 5,
+    "names": [
+      "Izgara Köfte",
+      "Grilled Meatballs",
+      "كفتة مشوية"
+    ],
+    "price": 550
+  },
+  {
+    "id": "5-7",
+    "cat": 5,
+    "names": [
+      "Ev Mantısı",
+      "Homemade Turkish Manti",
+      "مانتي تركي منزلي"
+    ],
+    "price": 400
+  },
+  {
+    "id": "5-8",
+    "cat": 5,
+    "names": [
+      "Tavuk Biftek",
+      "Chicken Steak",
+      "ستيك دجاج"
+    ],
+    "price": 500
+  },
+  {
+    "id": "5-9",
+    "cat": 5,
+    "names": [
+      "Dana Antrikot",
+      "Beef Entrecote",
+      "شريحة لحم عجل مشوية"
+    ],
+    "price": 900
+  },
+  {
+    "id": "5-10",
+    "cat": 5,
+    "names": [
+      "Adana-Urfa Dürüm",
+      "Adana-Urfa Wrap",
+      "ساندويتش أضنة أو أورفا"
+    ],
+    "price": 400
+  },
+  {
+    "id": "5-11",
+    "cat": 5,
+    "names": [
+      "Tavuk Şiş Dürüm",
+      "Chicken Skewer Wrap",
+      "ساندويتش شيش طاووق"
+    ],
+    "price": 350
+  },
+  {
+    "id": "5-12",
+    "cat": 5,
+    "names": [
+      "Kuzu Şiş Dürüm",
+      "Lamb Skewer Wrap",
+      "ساندويتش شيش خروف"
+    ],
+    "price": 550
+  },
+  {
+    "id": "5-13",
+    "cat": 5,
+    "names": [
+      "Çoban Salata",
+      "Shepherd Salad",
+      "سلطة الراعي"
+    ],
+    "price": 230
+  },
+  {
+    "id": "5-14",
+    "cat": 5,
+    "names": [
+      "Mevsim Salata",
+      "Seasonal Salad",
+      "سلطة موسمية"
+    ],
+    "price": 230
+  },
+  {
+    "id": "5-15",
+    "cat": 5,
+    "names": [
+      "Cacık & Yoğurt",
+      "Cacik and Yogurt",
+      "جاجيك ولبن"
+    ],
+    "price": 200
+  },
+  {
+    "id": "5-16",
+    "cat": 5,
+    "names": [
+      "Pirinç veya Bulgur Pilavı",
+      "Rice or Bulgur Pilaf",
+      "أرز أو برغل"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-1",
+    "cat": 6,
+    "names": [
+      "Künefe",
+      "Kunefe",
+      "كنافة"
+    ],
+    "price": 300
+  },
+  {
+    "id": "6-2",
+    "cat": 6,
+    "names": [
+      "Katmer",
+      "Katmer Pastry",
+      "قطايف تركية بالفستق"
+    ],
+    "price": 350
+  },
+  {
+    "id": "6-3",
+    "cat": 6,
+    "names": [
+      "Trileçe",
+      "Tres Leches Cake",
+      "تريليتشا"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-4",
+    "cat": 6,
+    "names": [
+      "Baklava",
+      "Turkish Baklava",
+      "بقلاوة تركية"
+    ],
+    "price": 300
+  },
+  {
+    "id": "6-5",
+    "cat": 6,
+    "names": [
+      "Kazandibi",
+      "Kazandibi Milk Dessert",
+      "كازانديبي"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-6",
+    "cat": 6,
+    "names": [
+      "Sütlaç",
+      "Rice Pudding",
+      "أرز بالحليب"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-7",
+    "cat": 6,
+    "names": [
+      "Magnolya",
+      "Magnolia Dessert",
+      "حلوى ماغنوليا"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-8",
+    "cat": 6,
+    "names": [
+      "Tavuk Göğsü",
+      "Turkish Milk Pudding",
+      "حلوى صدر الدجاج"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-9",
+    "cat": 6,
+    "names": [
+      "Supangle",
+      "Chocolate Pudding",
+      "بودينغ الشوكولاتة"
+    ],
+    "price": 200
+  },
+  {
+    "id": "6-10",
+    "cat": 6,
+    "names": [
+      "Dondurma",
+      "Ice Cream",
+      "آيس كريم"
+    ],
+    "price": 260
+  },
+  {
+    "id": "6-11",
+    "cat": 6,
+    "names": [
+      "1 Top Dondurma",
+      "One Scoop of Ice Cream",
+      "كرة آيس كريم واحدة"
+    ],
+    "price": 65
+  },
+  {
+    "id": "6-12",
+    "cat": 6,
+    "names": [
+      "Kaymak İlave",
+      "Extra Clotted Cream",
+      "إضافة قشطة"
+    ],
+    "price": 65
+  },
+  {
+    "id": "7-1",
+    "cat": 7,
+    "names": [
+      "Bardak Çay",
+      "Turkish Tea (Glass)",
+      "شاي تركي"
+    ],
+    "price": 50
+  },
+  {
+    "id": "7-2",
+    "cat": 7,
+    "names": [
+      "Fincan Çay",
+      "Tea (Cup)",
+      "شاي في فنجان"
+    ],
+    "price": 80
+  },
+  {
+    "id": "7-3",
+    "cat": 7,
+    "names": [
+      "Ada Çayı",
+      "Sage Tea",
+      "شاي الميرمية"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-4",
+    "cat": 7,
+    "names": [
+      "Ihlamur",
+      "Linden Tea",
+      "شاي الزيزفون"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-5",
+    "cat": 7,
+    "names": [
+      "Kuşburnu",
+      "Rosehip Tea",
+      "شاي ثمر الورد"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-6",
+    "cat": 7,
+    "names": [
+      "Elma Çayı",
+      "Apple Tea",
+      "شاي التفاح"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-7",
+    "cat": 7,
+    "names": [
+      "Böğürtlen Çayı",
+      "Blackberry Tea",
+      "شاي التوت البري"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-8",
+    "cat": 7,
+    "names": [
+      "Nane Limon",
+      "Mint and Lemon Tea",
+      "شاي النعناع والليمون"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-9",
+    "cat": 7,
+    "names": [
+      "Yeşil Çay",
+      "Green Tea",
+      "شاي أخضر"
+    ],
+    "price": 120
+  },
+  {
+    "id": "7-10",
+    "cat": 7,
+    "names": [
+      "Sahlep",
+      "Salep",
+      "سحلب"
+    ],
+    "price": 200
+  },
+  {
+    "id": "7-11",
+    "cat": 7,
+    "names": [
+      "Türk Kahvesi",
+      "Turkish Coffee",
+      "قهوة تركية"
+    ],
+    "price": 130
+  },
+  {
+    "id": "7-12",
+    "cat": 7,
+    "names": [
+      "Sütlü Nescafe",
+      "Coffee with Milk",
+      "نسكافيه بالحليب"
+    ],
+    "price": 130
+  },
+  {
+    "id": "7-13",
+    "cat": 7,
+    "names": [
+      "Sıcak Çikolata",
+      "Hot Chocolate",
+      "شوكولاتة ساخنة"
+    ],
+    "price": 130
+  },
+  {
+    "id": "7-14",
+    "cat": 7,
+    "names": [
+      "Cappuccino",
+      "Cappuccino",
+      "كابتشينو"
+    ],
+    "price": 130
+  },
+  {
+    "id": "7-15",
+    "cat": 7,
+    "names": [
+      "Cafe Latte",
+      "Cafe Latte",
+      "كافيه لاتيه"
+    ],
+    "price": 130
+  },
+  {
+    "id": "7-16",
+    "cat": 7,
+    "names": [
+      "Taze Sıkma Portakal Suyu",
+      "Fresh Orange Juice",
+      "عصير برتقال طازج"
+    ],
+    "price": 250
+  },
+  {
+    "id": "7-17",
+    "cat": 7,
+    "names": [
+      "Taze Sıkma Nar Suyu",
+      "Fresh Pomegranate Juice",
+      "عصير رمان طازج"
+    ],
+    "price": 250
+  },
+  {
+    "id": "7-18",
+    "cat": 7,
+    "names": [
+      "Karışık Sıkma Meyve Suyu",
+      "Fresh Mixed Fruit Juice",
+      "عصير فواكه طازج مشكل"
+    ],
+    "price": 250
+  },
+  {
+    "id": "7-19",
+    "cat": 7,
+    "names": [
+      "Limonata",
+      "Lemonade",
+      "ليموناضة"
+    ],
+    "price": 150
+  },
+  {
+    "id": "7-20",
+    "cat": 7,
+    "names": [
+      "Cola (330 ml)",
+      "Cola (330 ml)",
+      "كولا"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-21",
+    "cat": 7,
+    "names": [
+      "Fanta (330 ml)",
+      "Fanta (330 ml)",
+      "فانتا"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-22",
+    "cat": 7,
+    "names": [
+      "Gazoz (330 ml)",
+      "Soft Drink (330 ml)",
+      "مشروب غازي"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-23",
+    "cat": 7,
+    "names": [
+      "Soda Limon (200 ml)",
+      "Lemon Soda (200 ml)",
+      "صودا بالليمون"
+    ],
+    "price": 70
+  },
+  {
+    "id": "7-24",
+    "cat": 7,
+    "names": [
+      "Soda Sade (200 ml)",
+      "Plain Soda (200 ml)",
+      "مياه غازية"
+    ],
+    "price": 70
+  },
+  {
+    "id": "7-25",
+    "cat": 7,
+    "names": [
+      "Churchill (200 ml)",
+      "Churchill Drink (200 ml)",
+      "مشروب تشرشل"
+    ],
+    "price": 150
+  },
+  {
+    "id": "7-26",
+    "cat": 7,
+    "names": [
+      "Ice Tea Şeftali (330 ml)",
+      "Peach Iced Tea (330 ml)",
+      "شاي مثلج بالخوخ"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-27",
+    "cat": 7,
+    "names": [
+      "Ice Tea Limon (330 ml)",
+      "Lemon Iced Tea (330 ml)",
+      "شاي مثلج بالليمون"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-28",
+    "cat": 7,
+    "names": [
+      "Şeftali Suyu (330 ml)",
+      "Peach Juice (330 ml)",
+      "عصير خوخ"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-29",
+    "cat": 7,
+    "names": [
+      "Kayısı Suyu (330 ml)",
+      "Apricot Juice (330 ml)",
+      "عصير مشمش"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-30",
+    "cat": 7,
+    "names": [
+      "Vişne Suyu (330 ml)",
+      "Sour Cherry Juice (330 ml)",
+      "عصير كرز حامض"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-31",
+    "cat": 7,
+    "names": [
+      "Karışık Meyve Suyu (330 ml)",
+      "Mixed Fruit Juice (330 ml)",
+      "عصير فواكه مشكل"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-32",
+    "cat": 7,
+    "names": [
+      "Şalgam (300 ml)",
+      "Turnip Juice (300 ml)",
+      "عصير الشلغم"
+    ],
+    "price": 100
+  },
+  {
+    "id": "7-33",
+    "cat": 7,
+    "names": [
+      "Ayran (270 ml)",
+      "Ayran (270 ml)",
+      "عيران"
+    ],
+    "price": 70
+  },
+  {
+    "id": "7-34",
+    "cat": 7,
+    "names": [
+      "Su (330 ml)",
+      "Water (330 ml)",
+      "ماء"
+    ],
+    "price": 20
+  }
+]
