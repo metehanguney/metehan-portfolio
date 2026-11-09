@@ -1,7 +1,19 @@
 {
   "name": "metehan-portfolio",
   "compatibility_date": "2026-11-09",
+  "main": "./semazen/worker/worker.js",
   "assets": {
-    "directory": "./"
-  }
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/semazen/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "SEMAZEN_DB",
+      "database_name": "semazen-menu",
+      "database_id": "d22953f0-bf4f-4318-871d-9950dc8d6a0c"
+    }
+  ]
 }
