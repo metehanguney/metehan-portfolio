@@ -15,5 +15,9 @@
       "database_name": "semazen-menu",
       "database_id": "d22953f0-bf4f-4318-871d-9950dc8d6a0c"
     }
-  ]
+  ],
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "flat-waterfall-ef3f.cloudflareaccess.com",
+    "ACCESS_AUD": "d686376494e890c044bf3da68294bc09e205829cafefbb35fb865b3a1e512e30"
+  }
 }
