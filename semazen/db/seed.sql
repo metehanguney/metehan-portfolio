@@ -1,5 +1,4 @@
--- Semazen: 99 product seed. Safe to re-run (existing IDs updated).
-BEGIN TRANSACTION;
+-- Semazen: 99 product seed. D1 Console compatible: no explicit BEGIN/COMMIT. Re-running updates existing IDs.
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('1-1',1,'Serpme Kahvaltı','Mixed Breakfast','فطور مشكل',1300,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('1-2',1,'Kahvaltı Tabağı','Breakfast Plate','طبق فطور',400,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('1-3',1,'Mercimek veya Ezogelin Çorbası','Lentil or Ezogelin Soup','شوربة عدس أو إيزوغلين',130,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
@@ -99,5 +98,4 @@ INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VAL
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('7-32',7,'Şalgam (300 ml)','Turnip Juice (300 ml)','عصير الشلغم',100,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('7-33',7,'Ayran (270 ml)','Ayran (270 ml)','عيران',70,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
 INSERT INTO menu_items (id,category,name_tr,name_en,name_ar,price,image_url) VALUES ('7-34',7,'Su (330 ml)','Water (330 ml)','ماء',20,NULL) ON CONFLICT(id) DO UPDATE SET category=excluded.category,name_tr=excluded.name_tr,name_en=excluded.name_en,name_ar=excluded.name_ar,price=excluded.price,updated_at=datetime('now');
-COMMIT;
 -- Verify: SELECT COUNT(*) AS toplam_urun FROM menu_items;
