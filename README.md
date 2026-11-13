@@ -29,7 +29,7 @@ En kolay yol:
 5. Build command: boş.
 6. Build output directory: `/` (veya Cloudflare'ın root seçeneği).
 7. Deploy et.
-8. Custom domains bölümünden `metehanguney.com.tr` ekle.
+8. Custom domains bölümünden `metehanguney.com` ekle.
 
 ## Kişiselleştirilecek alanlar
 
