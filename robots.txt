@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://metehanguney.com.tr/sitemap.xml
+Sitemap: https://metehanguney.com/sitemap.xml
