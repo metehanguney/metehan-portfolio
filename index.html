@@ -38,7 +38,6 @@
     <nav class="nav" aria-label="Ana navigasyon">
       <a href="#about">Hakkımda</a>
       <a href="#skills">Yetenekler</a>
-      <a href="#projects">Projeler</a>
       <a href="#contact">İletişim</a>
     </nav>
 
@@ -60,9 +59,8 @@
           Windows sunucu altyapıları, Active Directory, güncelleme yönetimi, güvenlik ve PowerShell otomasyonları üzerine çalışan bir Sistem Uzmanıyım. Tekrarlanan işleri otomatikleştirmeyi, sorunları görünür hale getirmeyi ve operasyonu sadeleştirmeyi seviyorum.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Projeleri Gör</a>
           <a class="button button-secondary" href="Metehan_Guney_CV.pdf" target="_blank" rel="noopener">CV'yi Görüntüle</a>
-          <a class="button button-secondary" href="#contact">İletişime Geç</a>
+          <a class="button button-primary" href="#contact">İletişime Geç</a>
         </div>
         <div class="hero-meta">
           <span><strong>Odak:</strong> Windows & Microsoft ekosistemi</span>
@@ -170,101 +168,6 @@
       </div>
     </section>
 
-    <section id="projects" class="section section-shell">
-      <div class="section-heading reveal">
-        <span class="section-kicker">03 / Projeler</span>
-        <h2>Operasyonun içinden çıkan<br />gerçek ihtiyaçlara gerçek araçlar.</h2>
-      </div>
-
-      <div class="projects-stack">
-        <article class="project-card featured reveal">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <div class="project-header">
-              <div>
-                <span class="project-label">Monitoring / Automation</span>
-                <h3>Infrastructure Monitoring Dashboard</h3>
-              </div>
-              <span class="project-state">Aktif proje</span>
-            </div>
-            <p>
-              Windows sunucu altyapılarının merkezi olarak izlenmesi, durum kontrollerinin otomatik toplanması ve operasyonel verilerin tek panel üzerinden raporlanması için geliştirilen izleme ve otomasyon çözümü.
-            </p>
-            <div class="project-points">
-              <span>PowerShell</span><span>WinRM & WMI</span><span>Active Directory</span><span>HTML Dashboard</span><span>Automation</span>
-            </div>
-            <figure class="project-visual">
-              <img src="assets/projects/infrastructure-monitoring.png" alt="Infrastructure Monitoring Dashboard için temsili mimari, genel görünüm ve sunucu izleme arayüzü" loading="lazy" />
-            </figure>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <div class="project-header">
-              <div><span class="project-label">Security</span><h3>Windows LAPS Dağıtımı</h3></div>
-            </div>
-            <p>Yerel yönetici parolalarının merkezi, otomatik rotasyonlu ve yetki kontrollü yönetimi için Windows LAPS mimarisi; GPO, kapsamlandırma ve least-privilege yaklaşımıyla kademeli dağıtım.</p>
-            <div class="project-points"><span>GPO</span><span>Delegation</span><span>OU scope</span><span>Least privilege</span></div>
-            <figure class="project-visual">
-              <img src="assets/projects/windows-laps.png" alt="Windows LAPS dağıtımı için temsili mimari, parola rotasyonu ve yetkilendirme akışı" loading="lazy" />
-            </figure>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">03</div>
-          <div class="project-content">
-            <div class="project-header">
-              <div><span class="project-label">Patch Management</span><h3>WSUS Altyapısı</h3></div>
-            </div>
-            <p>Windows sunucu güncellemelerini test, pilot ve üretim aşamalarına ayıran merkezi patch yönetimi; kontrollü onay, GPO tabanlı hedefleme ve raporlama akışı.</p>
-            <div class="project-points"><span>Computer Groups</span><span>GPO</span><span>Approval Flow</span><span>Reporting</span></div>
-            <figure class="project-visual">
-              <img src="assets/projects/wsus-infrastructure.png" alt="WSUS altyapısı için temsili merkezi güncelleme mimarisi ve dağıtım dashboardu" loading="lazy" />
-            </figure>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">04</div>
-          <div class="project-content">
-            <div class="project-header">
-              <div><span class="project-label">Homelab / Smart Home</span><h3>Smart Home Automation Platform</h3></div>
-            </div>
-            <p>Home Assistant tabanlı merkezi akıllı ev yönetim platformu. TV, medya servisleri ve diğer akıllı ev cihazlarının tek arayüz üzerinden kontrol edilmesi; kişiselleştirilmiş dashboard'lar ve otomasyonların oluşturulması. Dış ağ erişimi Cloudflare Tunnel, Access ve MFA ile güvenli hale getirildi.</p>
-            <div class="project-points"><span>Home Assistant</span><span>IoT</span><span>Automation</span><span>Cloudflare Tunnel</span><span>Zero Trust</span><span>MFA</span></div>
-            <figure class="project-visual project-visual-dark">
-              <img src="assets/projects/smart-home-automation.png" alt="Smart Home Automation Platform için temsili akıllı ev kontrol, otomasyon ve mobil dashboard arayüzü" loading="lazy" />
-            </figure>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">05</div>
-          <div class="project-content">
-            <div class="project-header">
-              <div>
-                <span class="project-label">Active Directory / Security</span>
-                <h3>Active Directory Health &amp; Security Dashboard</h3>
-              </div>
-              <span class="project-state">Aktif proje</span>
-            </div>
-            <p>
-              Çoklu Active Directory ortamlarında domain controller sağlığı, replikasyon, DNS, zaman senkronizasyonu, DFSR, GPO, Windows LAPS ve kritik güvenlik bulgularını merkezi olarak izlemek için geliştirilen read-only sağlık ve güvenlik dashboard'u.
-            </p>
-            <div class="project-points">
-              <span>PowerShell</span><span>Active Directory</span><span>Replication</span><span>DNS</span><span>GPO</span><span>Windows LAPS</span><span>Security Monitoring</span><span>Read-only</span>
-            </div>
-            <figure class="project-visual">
-              <img src="assets/projects/ad-health-security-dashboard.png" alt="Active Directory Health &amp; Security Dashboard için anonimleştirilmiş çoklu domain izleme mimarisi ve merkezi dashboard şeması" loading="lazy" />
-            </figure>
-          </div>
-        </article>
-      </div>
-    </section>
-
     <section class="section section-shell">
       <div class="cta-card reveal">
         <div>
@@ -282,7 +185,7 @@
 
     <section id="contact" class="section section-shell contact-section">
       <div class="contact-card reveal">
-        <span class="section-kicker">04 / İletişim</span>
+        <span class="section-kicker">03 / İletişim</span>
         <h2>Bir altyapı problemi,<br />proje fikri veya teknik sohbet?</h2>
         <p>Sistem yönetimi, otomasyon ve altyapı projeleri üzerine iletişim kurabilirsin.</p>
         <div class="contact-actions">
@@ -302,12 +205,6 @@
   </footer>
 
   <div class="toast" id="toast" role="status" aria-live="polite">E-posta kopyalandı.</div>
-
-  <div class="image-lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Proje görseli önizleme">
-    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Görseli kapat">&times;</button>
-    <img id="lightboxImage" src="" alt="" />
-    <p class="lightbox-caption" id="lightboxCaption"></p>
-  </div>
 
   <script src="script.js"></script>
 </body>
