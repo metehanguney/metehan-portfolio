@@ -201,3 +201,33 @@ h1 { font-size:clamp(48px,5.5vw,72px); line-height:1.08; }
 @media(max-width:1050px) { .nav a { padding:9px 7px; font-size:13px; } .site-header { gap:12px; } }
 @media(max-width:920px) { .hero { grid-template-columns:1fr; gap:30px; min-height:0; padding-top:70px; padding-bottom:60px; } .profile-panel { max-width:640px; } .profile-panel dl { display:grid; grid-template-columns:100px 1fr; gap:16px 12px; } .profile-panel dt,.profile-panel dd { margin:0; } }
 @media(max-width:620px) { .brand>span:last-child { display:block; font-size:13px; } .brand { gap:7px; } .brand-mark { width:30px; height:30px; } .site-header { gap:8px; padding:10px; } .header-tools { gap:6px; } .language-switch button { padding:6px; } .hero { padding-top:52px; } h1 { font-size:clamp(39px,10.2vw,60px); } .hero-role { font-size:clamp(25px,6.4vw,36px); } .eyebrow { font-size:10px; letter-spacing:.09em; } .timeline-item { grid-template-columns:1fr; gap:12px; padding-left:22px; border-left:1px solid var(--line-strong); } .timeline-date { border:0; padding:0; font-size:11px; margin-top:0; } .timeline-date::after { left:-5px; top:5px; } .timeline-card { padding-bottom:34px; } .timeline-card h3 { font-size:21px; } .profile-panel { padding:24px; } .section { padding:64px 0; } .section-heading { margin-bottom:32px; } .section-heading h2, .contact-card h2 { font-size:35px; } .footer-note { font-size:11px; } }
+
+/* Concurrent roles and touch-friendly mobile navigation */
+.timeline-note { width:fit-content; max-width:100%; margin:0 0 14px; padding:7px 11px; border:1px solid var(--line); border-radius:9px; font-size:12px; line-height:1.6; color:var(--accent-2); background:var(--bg-elev); }
+@media (max-width:920px) {
+  .site-header { flex-wrap:wrap; gap:8px 12px; }
+  .header-tools { margin-left:auto; }
+  .nav { display:flex; order:3; flex-basis:100%; justify-content:center; flex-wrap:wrap; gap:2px 6px; border-top:1px solid var(--line); padding-top:5px; }
+  .nav a { min-height:44px; display:inline-flex; align-items:center; padding:8px 12px; }
+  .language-switch button { min-width:40px; min-height:40px; padding:8px; }
+  .theme-toggle { width:44px; height:44px; }
+  section[id], main[id] { scroll-margin-top:160px; }
+  .hero > *, .about-grid > *, .skills-grid > * { min-width:0; }
+}
+@media (max-width:620px) {
+  .nav { gap:0; justify-content:space-between; }
+  .nav a { padding:8px 7px; font-size:12px; }
+  .hero-role { overflow-wrap:normal; }
+  .contact-actions .button { min-height:48px; }
+  .tags span { overflow-wrap:anywhere; }
+}
+@media (max-width:360px) {
+  .brand > span:last-child { font-size:11px; }
+  .brand-mark { width:26px; height:26px; font-size:10px; }
+  .site-header { padding:8px; gap:6px; }
+  .header-tools { gap:4px; }
+  .language-switch button { min-width:36px; }
+  .nav a { padding-inline:5px; }
+  .profile-panel dl { grid-template-columns:1fr; gap:5px; }
+  .profile-panel dd { margin-bottom:12px; }
+}
